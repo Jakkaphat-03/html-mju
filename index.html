@@ -1,36 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>AJ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/csmju.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Hello</h1>
-    </header>
-    <nav>Navigation</nav>
-    <div>Main Content
-        <p>This is the main content area.</p>
-        <p>Here you can add more information or features.</p>
-        <h2>วิทยาศาสตร์</h2>
-        <p>วิทยาการคอมพิวเตอร์</p>
+    <div>
+        <header>
+            <h1
+                class="md:text-4xl font-bold text-center bg-gradient-to-r from-red-500 via-yellow-500 to-purple-500 bg-clip-text text-transparent sm:text-8xl">
+                Hello HTML101</h1>
+        </header>
+        <nav class="bg-blue-100 px-5">
+            <ul class="flex justify-end space-x-3">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <div>
-            <h3>ข่าว 1</h3>
-            <p>รายละเอียดข่าว 1</p>
-            <p>วันที่ dd/mm/yyyy</p>
+            <div class="mx-auto max-w-2xl py-32">
+                <h1 class="text-5xl font-bold">Main Content</h1>
+                <p>This is the main content area.</p>
+                <p>Here you can add more information or features.</p>
+                <h2>วิทยาศาสตร์</h2>
+                <p>วิทยาการคอมพิวเตอร์</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 p-4">
+                <img class="cs-image" src="https://cdn.pixabay.com/photo/2025/01/29/11/09/lantern-9367692_1280.jpg" alt="รูปวิว"
+                    width="450" height="450">
+                <img class="cs-image" src="https://cdn.pixabay.com/photo/2023/08/29/18/07/american-quarter-horse-8221846_1280.jpg"
+                    alt="รูปม้า" width="450" height="450">
+                <img class="cs-image" src="https://cdn.pixabay.com/photo/2022/10/24/09/31/flower-7543035_1280.jpg"
+                    alt="รูปม้า" width="450" height="450">
+            </div>
+            <h3>ตารางรายชื่อ</h3>
+            <table border="2" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>ชื่อ</th>
+                        <th>อายุ</th>
+                        <th>อาชีพ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>สมชาย</td>
+                        <td>30</td>
+                        <td>วิศวกร</td>
+                    </tr>
+                    <tr>
+                        <td>สมหญิง</td>
+                        <td>25</td>
+                        <td>นักศึกษา</td>
+                    </tr>
+                    <tr>
+                        <td>สมปอง</td>
+                        <td>40</td>
+                        <td>ครู</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <div>
+                <h3>ข่าว 1</h3>
+                <p>รายละเอียดข่าว 1</p>
+                <p>วันที่ dd/mm/yyyy</p>
+            </div>
+            <div>
+                <h3>ข่าว 2</h3>
+                <p>รายละเอียดข่าว 2</p>
+                <p>วันที่ dd/mm/yyyy</p>
+            </div>
+            <div>
+                <h3>ข่าว 3</h3>
+                <p>รายละเอียดข่าว 3</p>
+                <p>วันที่ dd/mm/yyyy</p>
+            </div>
         </div>
-        <div>
-            <h3>ข่าว 2</h3>
-            <p>รายละเอียดข่าว 2</p>
-            <p>วันที่ dd/mm/yyyy</p>
-        </div>
-        <div>
-            <h3>ข่าว 3</h3>
-            <p>รายละเอียดข่าว 3</p>
-            <p>วันที่ dd/mm/yyyy</p>
-        </div>
+        <footer>Footer</footer>
     </div>
-    <footer>Footer</footer>
 </body>
+
 </html>

@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+header { 
+    background-color: #af9e4c;
+    color: white;
+    padding: 10px 0;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #e9d77e;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul  li a {
+    text-decoration: none;
+    color: #000000;
+}

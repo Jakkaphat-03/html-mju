@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เรียน 29/7/68</title>
+</head>
+<body>
+    <div> 
+        <h1>แบบฟอร์มสมัคร</h1>
+        <form action="">
+            <!-- <label for="name">ชื่อ-นามสกุล:</label>
+            <input type="text" name="name"required minlength="10" maxlength="20"><br>
+        
+            <label for="email">อีเมล:</label>
+            <input type="email" name="email"required pattern="std[0-9]{8}@mju\.ac\.th"><br> -->
+
+
+            <label for="grade">Grade: A, B+, B, C+, C, D+, D, F</label>
+            <input type="text" name="grade" required pattern="(A|B\+|B|C\+|C|D\+|D|F)">
+
+            <label for="gpa">GPA: 1.75 - 4.00</label>
+            <input type="text" name="gpa" required pattern="[1.75-4.00]">
+
+            <label for="even_number">เลขคู่</label>
+            <input type="text" name="even_number"><br>  
+            
+            <label for="car">ทะเบียนรถยนต์</label>
+            <!-- <input type="text" name="car" required pattern="\1\ [a-z{2}]\ [0-9{4}]"> -->
+
+<!-- 
+            <label for="number">Age:</label>
+            <input type="number" name="age" min="1" max="100" placeholder="Enter your age" required>
+            <label for="rank">Rank (1-5):</label>
+            <input type="range" name="rank" min="1" max="5" value="3" required> -->
+
+            <input type="submit" value="ส่งข้อมูล">
+        </form>
+    </div>
+</body>
+</html>
